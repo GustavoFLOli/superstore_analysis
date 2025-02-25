@@ -112,6 +112,18 @@ Insights:
   
 3. Matriz de Correlação:
   ![Matriz de Correlação](images/matriz_correlacao.png)
+Insights:
+- Correlações fortes:
+   - **Sales** e **Profit** têm uma correlação positiva moderada (0.48), indicando que vendas mais altas tendem a gerar mais lucro.
+   - **Discount** e **Profit Margin** têm uma correlação negativa forte (-0.86), sugerindo que descontos maiores reduzem significativamente a margem de lucro.
+
+- Correlações fracas:
+   - **Quantity** tem uma correlação positiva fraca com **Sales** (0.2), indicando que a quantidade vendida tem um impacto limitado no valor total das vendas.
+   - **Delivery Time** não tem correlação significativa com nenhuma das variáveis analisadas.
+
+- Relevância para o negócio:
+   - A loja deve evitar descontos excessivos, pois eles impactam negativamente a margem de lucro.
+   - Estratégias para aumentar a quantidade vendida podem ter um impacto limitado no valor total das vendas, mas podem ser úteis para aumentar a base de clientes.
 
 ---
 
