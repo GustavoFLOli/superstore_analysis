@@ -24,4 +24,4 @@ subprocess.run(["git", "commit", "-m", commit_message])
 subprocess.run(["git", "remote", "add", "origin", repo_url])
 
 # Envia os arquivos para o GitHub
-subprocess.run(["git", "push", "-u", "origin", "master"])  # Use "main" se for o branch principal
+subprocess.run(["git", "push", "-u", "origin", "main"])  # Use "main" se for o branch principal
