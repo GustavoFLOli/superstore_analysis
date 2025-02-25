@@ -35,7 +35,10 @@ Para executar este projeto localmente, siga os passos abaixo:
    pip install -r requirements.txt
    ```
 
-3. Execute o notebook Jupyter `superstore_analysis`.
+3. 3. Inicie o Jupyter Notebook e abra `superstore_analysis.ipynb`:
+   ```bash
+   jupyter notebook
+
 
 ---
 
