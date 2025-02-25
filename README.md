@@ -59,10 +59,6 @@ Para executar este projeto localmente, siga os passos abaixo:
 ```
 superstore-analysis/
 │
-├── data/                   # Pasta para armazenar os dados
-│   ├── superstore.csv      # Dataset original
-│   └── superstore_tratado.csv  # Dataset tratado
-│
 ├── images/                 # Pasta para imagens (gráficos, etc.)
 │   ├── histograma_vendas.png
 │   ├── boxplot_lucro.png
@@ -161,6 +157,12 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 - Dataset: [Superstore Dataset no Kaggle](https://www.kaggle.com/datasets/jacopoferretti/superstore-dataset).
 - Ferramentas: Python, Pandas, Scikit-learn, Matplotlib, Seaborn.
 
+---
+
+## 📞 Contato
+
+- LinkedIn: https://www.linkedin.com/in/gustavo-fl-oliveira/
+- E-mail: gustavo.f.lima.oliveira@gmail.com
 ## 📞 Contato
 
 - LinkedIn: https://www.linkedin.com/in/gustavo-fl-oliveira/
