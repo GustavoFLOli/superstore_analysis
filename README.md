@@ -38,8 +38,8 @@ Para executar este projeto localmente, siga os passos abaixo:
 3. 3. Inicie o Jupyter Notebook e abra `superstore_analysis.ipynb`:
    ```bash
    jupyter notebook
-
-
+   ```
+   
 ---
 
 ## 🚀 Uso
