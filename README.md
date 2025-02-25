@@ -43,15 +43,12 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 ## 🚀 Uso
 
-1. **Análise exploratória**:
+**Análise exploratória e modelagem preditiva**:
    - Abra o notebook `analise_exploratoria.ipynb` para visualizar as análises e gráficos.
    - Insights gerados:
      - Distribuição de vendas.
      - Lucro por categoria.
      - Correlação entre variáveis.
-
-2. **Modelagem preditiva**:
-   - Abra o notebook `modelo_preditivo.ipynb` para ver o processo de modelagem.
    - O modelo final utiliza **Gradient Boosting** e alcançou um R² de 0.92 no conjunto de teste.
 
 ---
@@ -72,7 +69,8 @@ superstore-analysis/
 ├── images/                 # Pasta para imagens (gráficos, etc.)
 │   ├── histograma_vendas.png
 │   ├── boxplot_lucro.png
-│   └── matriz_correlacao.png
+│   ├── matriz_correlacao.png
+│   └── previsoes_vs_reais.png
 │
 ├── requirements.txt        # Lista de dependências
 ├── README.md               # Documentação principal
