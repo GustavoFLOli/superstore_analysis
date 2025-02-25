@@ -79,7 +79,7 @@ superstore-analysis/
 
 ### Principais Insights
 
-1. Histograma de vendas:
+1. **Histograma de vendas**:
   ![Histograma de Vendas](images/histograma_vendas.png)
 Insights:
 
@@ -95,7 +95,7 @@ Insights:
    - As vendas muito altas (cauda longa) representam oportunidades estratégicas. Essas transações podem ser de clientes corporativos ou compras em grande volume, que devem ser priorizadas com estratégias de fidelização e atendimento personalizado.
 
 
-2. Boxplot de lucro por categoria:
+2. **Boxplot de lucro por categoria**:
   ![Boxplot de Lucro](images/boxplot_lucro.png)
 Insights:
 - Lucro por categoria:
@@ -111,7 +111,7 @@ Insights:
    - A categoria **Technology** deve ser mantida como prioridade, dada sua alta lucratividade.
 
 
-3. Matriz de correlação:
+3. **Matriz de correlação**:
   ![Matriz de Correlação](images/matriz_correlacao.png)
 Insights:
 - Correlações fortes:
