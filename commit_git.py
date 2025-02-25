@@ -15,9 +15,6 @@ os.chdir(project_dir)
 if not os.path.exists(os.path.join(project_dir, ".git")):
     subprocess.run(["git", "init"])
 
-# Cria o branch 'main' (se não existir)
-subprocess.run(["git", "checkout", "-b", "main"])
-
 # Adiciona todos os arquivos ao staging area
 subprocess.run(["git", "add", "."])
 
@@ -31,5 +28,9 @@ if result.returncode != 0:  # Se o remote não existir
 else:  # Se o remote já existir
     subprocess.run(["git", "remote", "set-url", "origin", repo_url])
 
-# Envia os arquivos para o GitHub (branch 'main')
-subprocess.run(["git", "push", "-u", "origin", "main"])
+# Verifica o branch atual
+result = subprocess.run(["git", "branch", "--show-current"], capture_output=True, text=True)
+current_branch = result.stdout.strip()
+
+# Envia os arquivos para o GitHub
+subprocess.run(["git", "push", "-u", "origin", current_branch])
