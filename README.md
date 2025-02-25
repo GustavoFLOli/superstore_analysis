@@ -92,8 +92,28 @@ superstore-analysis/
 ### Visualizações
 - Histograma de Vendas:
   ![Histograma de Vendas](images/histograma_vendas.png)
+  Insight:
+
+1. Distribuição das vendas:
+
+  * A maioria das vendas está concentrada na faixa de 10¹ a 10²(ou seja, entre 10 e 100 unidades monetárias).
+
+  * Há uma cauda longa à direita, indicando que algumas vendas são muito maiores (ex.: 10³ e 10⁴ , ou seja, 1.000 a 10.000 unidades monetárias). Esses valores podem representar vendas excepcionais ou outliers.
+
+2. Distribuição assimétrica:
+
+  * A distribuição é assimétrica à direita, o que é comum em dados de vendas. Isso indica que, embora a maioria das transações seja de valor baixo, há um número significativo de transações de alto valor que contribuem para o faturamento total.
+
+3. Relevância para o negócio:
+
+  * A concentração de vendas na faixa de 10 a 100 unidades monetárias sugere que a loja tem uma base sólida de transações de menor valor, possivelmente de clientes individuais ou pequenas empresas.
+
+  * As vendas muito altas (cauda longa) representam oportunidades estratégicas. Essas transações podem ser de clientes corporativos ou compras em grande volume, que devem ser priorizadas com estratégias de fidelização e atendimento personalizado.
+
 - Boxplot de Lucro por Categoria:
   ![Boxplot de Lucro](images/boxplot_lucro.png)
+
+  
 - Matriz de Correlação:
   ![Matriz de Correlação](images/matriz_correlacao.png)
 
