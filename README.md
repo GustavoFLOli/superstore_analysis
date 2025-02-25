@@ -42,7 +42,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 ## 🚀 Uso
 
 **Análise exploratória e modelagem preditiva**:
-   - Abra o notebook `analise_exploratoria.ipynb` para visualizar as análises e gráficos.
+   - Abra o notebook `superstore_analysis.ipynb` para visualizar as análises e gráficos.
    - Insights gerados:
      - Distribuição de vendas.
      - Lucro por categoria.
