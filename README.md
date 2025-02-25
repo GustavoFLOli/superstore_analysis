@@ -78,21 +78,10 @@ superstore-analysis/
 ## 📊 Análise exploratória (EDA)
 
 ### Principais Insights
-1. **Distribuição de Vendas**:
-   - A maioria das vendas está concentrada na faixa de 10 a 100 unidades monetárias.
-   - Há uma cauda longa à direita, indicando vendas excepcionais.
 
-2. **Lucro por categoria**:
-   - A categoria **Technology** é a mais lucrativa.
-   - **Office Supplies** apresenta margens negativas em alguns casos.
-
-3. **Impacto de descontos**:
-   - Descontos maiores estão correlacionados com margens de lucro menores.
-
-### Visualizações
 1. Histograma de Vendas:
   ![Histograma de Vendas](images/histograma_vendas.png)
-Insight:
+Insights:
 
 - Distribuição das vendas:
    - A maioria das vendas está concentrada na faixa de 10¹ a 10²(ou seja, entre 10 e 100 unidades monetárias).
@@ -108,7 +97,18 @@ Insight:
 
 2. Boxplot de Lucro por Categoria:
   ![Boxplot de Lucro](images/boxplot_lucro.png)
+Insights:
+- Lucro por categoria:
+   - A categoria **Technology** tem o maior lucro médio, seguida por **Furniture** e **Office Supplies**.
+   - A categoria **Office Supplies** apresenta alguns valores negativos de lucro, o que pode indicar problemas de precificação ou custos elevados.
 
+- Variação do lucro:
+   - A categoria **Technology** tem a maior variação de lucro, com alguns valores muito altos e outros relativamente baixos.
+   - A categoria **Furniture** tem uma distribuição mais equilibrada, mas ainda com alguns valores negativos.
+
+- Relevância para o negócio:
+   - A loja pode focar em estratégias para aumentar o lucro nas categorias **Furniture** e **Office Supplies**, como ajustes de preços ou redução de custos.
+   - A categoria **Technology** deve ser mantida como prioridade, dada sua alta lucratividade.
   
 3. Matriz de Correlação:
   ![Matriz de Correlação](images/matriz_correlacao.png)
