@@ -1,9 +1,9 @@
 # Análise e Previsão de Vendas no Superstore Dataset
 
 Este projeto tem como objetivo analisar o dataset **Superstore**, um conjunto de dados de vendas de uma loja virtual, e desenvolver um modelo preditivo para prever vendas. O projeto foi dividido em três etapas principais:
-1. **Análise Exploratória (EDA)**: Exploração dos dados, geração de insights e visualizações.
-2. **Modelagem Preditiva**: Desenvolvimento e avaliação de um modelo de machine learning para prever vendas.
-3. **Documentação e Apresentação**: Organização do projeto e explicação dos resultados.
+1. **Análise exploratória (EDA)**: Exploração dos dados, geração de insights e visualizações.
+2. **Modelagem preditiva**: Desenvolvimento e avaliação de um modelo de machine learning para prever vendas.
+3. **Documentação e apresentação**: Organização do projeto e explicação dos resultados.
 
 ---
 
@@ -27,7 +27,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/superstore-analysis.git
+   git clone https://github.com/GustavoFOli/superstore_analysis.git
    ```
 
 2. Instale as dependências:
@@ -35,9 +35,7 @@ Para executar este projeto localmente, siga os passos abaixo:
    pip install -r requirements.txt
    ```
 
-3. Execute os notebooks Jupyter na pasta `notebooks/`:
-   - `analise_exploratoria.ipynb`: Análise exploratória e visualizações.
-   - `modelo_preditivo.ipynb`: Desenvolvimento do modelo preditivo.
+3. Execute o notebook Jupyter `superstore_analysis`.
 
 ---
 
@@ -62,10 +60,6 @@ superstore-analysis/
 │   ├── superstore.csv      # Dataset original
 │   └── superstore_tratado.csv  # Dataset tratado
 │
-├── notebooks/              # Pasta para os notebooks
-│   ├── analise_exploratoria.ipynb  # Notebook de EDA
-│   └── modelo_preditivo.ipynb      # Notebook de modelagem
-│
 ├── images/                 # Pasta para imagens (gráficos, etc.)
 │   ├── histograma_vendas.png
 │   ├── boxplot_lucro.png
@@ -73,6 +67,7 @@ superstore-analysis/
 │   └── previsoes_vs_reais.png
 │
 ├── requirements.txt        # Lista de dependências
+├── superstore_analysis.ipynb # Notebook com o código completo
 ├── README.md               # Documentação principal
 └── .gitignore              # Ignorar arquivos desnecessários
 ```
@@ -162,3 +157,8 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 - Dataset: [Superstore Dataset no Kaggle](https://www.kaggle.com/datasets/jacopoferretti/superstore-dataset).
 - Ferramentas: Python, Pandas, Scikit-learn, Matplotlib, Seaborn.
+
+## 📞 Contato
+
+- LinkedIn: https://www.linkedin.com/in/gustavo-fl-oliveira/
+- E-mail: gustavo.f.lima.oliveira@gmail.com
