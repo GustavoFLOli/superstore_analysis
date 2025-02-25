@@ -165,7 +165,3 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 - LinkedIn: https://www.linkedin.com/in/gustavo-fl-oliveira/
 - E-mail: gustavo.f.lima.oliveira@gmail.com
-## 📞 Contato
-
-- LinkedIn: https://www.linkedin.com/in/gustavo-fl-oliveira/
-- E-mail: gustavo.f.lima.oliveira@gmail.com
