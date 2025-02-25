@@ -42,6 +42,8 @@ Para executar este projeto localmente, siga os passos abaixo:
    
 ---
 
+⚠️ **Nota:** O dataset é baixado automaticamente pelo código, então não é necessário baixá-lo manualmente.
+
 ## 🚀 Uso
 
 **Análise exploratória e modelagem preditiva**:
